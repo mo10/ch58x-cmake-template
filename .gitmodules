@@ -1,0 +1,3 @@
+[submodule "openwch/ch583"]
+	path = openwch/ch583
+	url = https://github.com/openwch/ch583.git
