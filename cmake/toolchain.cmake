@@ -92,9 +92,9 @@ set(TARGET_CFLAGS_HARDWARE "-march=rv32imac -mabi=ilp32")
 
 # Conditional flags
 # DEBUG
-set(CMAKE_C_FLAGS_DEBUG     "-DDEBUG -Og -g")
-set(CMAKE_CXX_FLAGS_DEBUG   "-DDEBUG -Og -g")
-set(CMAKE_ASM_FLAGS_DEBUG   "-DDEBUG -Og -g")
+set(CMAKE_C_FLAGS_DEBUG     "-DDEBUG -O0 -g")
+set(CMAKE_CXX_FLAGS_DEBUG   "-DDEBUG -O0 -g")
+set(CMAKE_ASM_FLAGS_DEBUG   "-DDEBUG -O0 -g")
 
 # RELEASE
 set(CMAKE_C_FLAGS_RELEASE        "-DNDEBUG -Os") #  -flto
